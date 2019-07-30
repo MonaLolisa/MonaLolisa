@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.custom {
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/skin/base.png;
+    background: url(skin/base.png;
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -8,7 +8,7 @@
 }
 
 .custom.disconnected {
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/skin/disconnected.png);
+    background: url(skindisconnected.png);
 }
 
 .custom.disconnected div {
@@ -25,7 +25,7 @@
 .custom .trigger {
     width: 99px;
     height: 100%;
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/skin/triggers.png);
+    background: url(skin/triggers.png);
     opacity: 0;
 }
 
@@ -41,7 +41,7 @@
 .custom .bumper {
     width: 99px;
     height: 23px;
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/skin/bumper.png) no-repeat;
+    background: url(skin/bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .custom .touchpad.pressed {
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/skin/touchpad.png) no-repeat center;
+    background: url(skin/touchpad.png) no-repeat center;
 }
 
 .custom .meta {
@@ -89,7 +89,7 @@
 }
 
 .custom .meta.pressed {
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/ps4-assets/meta.svgz) no-repeat center;
+    background: url(skin/meta.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -122,7 +122,7 @@ background-position: 0 -70px;
 }
 
 .custom .back, .custom .start {
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/skin/start.png);
+    background: url(skin/start.png);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/skin/face.png);
+    background: url(skin/face.png);
 }
 
 .custom .button.pressed {
@@ -197,7 +197,7 @@ background-position: 0 -70px;
 
 .custom .stick {
     position: absolute;
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/skin/sticks.png);
+    background: url(skin/sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -229,7 +229,7 @@ background-position: 0 -70px;
 }
 
 .custom .face {
-    background: url(https://github.com/MonaLolisa/ps4-css/blob/master/skin/dpad.png);
+    background: url(skin/dpad.png);
     position: absolute;
 }
 
