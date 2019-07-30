@@ -1,9 +1,9 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.custom {
-    background: url(skin/base test 1.png);
+    background: url(skin/base.png);
     height: 598px;
     width: 806px;
-    /*    margin-left: -600px;
+    /*    margin-left: -403px;
         margin-top: -280px;*/
 }
 
