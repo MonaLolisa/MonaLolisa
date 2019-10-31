@@ -1,51 +1,51 @@
 /*BEGIN PS4 Controller Styling*/
-.controller.custom {
-    background: url(skin/base.png);
+.controller.ds4 {
+    background: url(ps4-assets/base.svgz);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
 }
 
-.custom.disconnected {
-    background: url(skin/disconnected.png);
+.ds4.disconnected {
+    background: url(ps4-assets/disconnected.svgz);
 }
 
-.custom.disconnected div {
+.ds4.disconnected div {
     display: none;
 }
 
-.custom .triggers {
+.ds4 .triggers {
     width: 588px;
     height: 90px;
     position: absolute;
     left: 109px;
 }
 
-.custom .trigger {
+.ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(skin/triggers.png);
+    background: url(ps4-assets/triggers.svgz);
     opacity: 0;
 }
 
-.custom .trigger.left {
+.ds4 .trigger.left {
     float: left;
 }
 
-.custom .trigger.right {
+.ds4 .trigger.right {
     float: right;
     background-position-x: 99px;
 }
 
-.custom .bumper {
+.ds4 .bumper {
     width: 99px;
     height: 23px;
-    background: url(skin/bumper.png) no-repeat;
+    background: url(ps4-assets/bumper.svgz) no-repeat;
     opacity: 0;
 }
 
-.custom .bumpers {
+.ds4 .bumpers {
     position: absolute;
     width: 588px;
     height: 23px;
@@ -53,22 +53,22 @@
     top: 94px;
 }
 
-.custom .bumper.pressed {
+.ds4 .bumper.pressed {
     opacity: 1;
 }
 
-.custom .bumper.left {
+.ds4 .bumper.left {
     /* -webkit-transform: rotateY(180deg); */
     /* transform: rotateY(180deg); */
     float: left;
 }
 
-.custom .bumper.right {
+.ds4 .bumper.right {
     float: right;
     transform: rotateY(180deg);
 }
 
-.custom .touchpad {
+.ds4 .touchpad {
     width: 262px;
     height: 151px;
     position: absolute;
@@ -76,11 +76,11 @@
     top: 122px;
 }
 
-.custom .touchpad.pressed {
-    background: url(skin/touchpad.png) no-repeat center;
+.ds4 .touchpad.pressed {
+    background: url(ps4-assets/touchpad.svgz) no-repeat center;
 }
 
-.custom .meta {
+.ds4 .meta {
     width: 42px;
     height: 42px;
     position: absolute;
@@ -88,12 +88,12 @@
     bottom: 216px;
 }
 
-.custom .meta.pressed {
-    background: url(skin/meta.png) no-repeat center;
+.ds4 .meta.pressed {
+    background: url(ps4-assets/meta.svgz) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
-/*.custom .quadrant{
+/*.ds4 .quadrant{
 position: absolute;
 background: url(ps4-assets/player-n.svgz);
 height: 17px;
@@ -101,19 +101,19 @@ width: 111px;
 top: 140px;
 left: 240px;
 }
-.custom .p0{
+.ds4 .p0{
 background-position: 0 -6px;
 }
-.custom .p1{
+.ds4 .p1{
 background-position: 0 -28px;
 }
-.custom .p2{
+.ds4 .p2{
 background-position: 0 -49px;
 }
-.custom .p3{
+.ds4 .p3{
 background-position: 0 -70px;
 }*/
-.custom .arrows {
+.ds4 .arrows {
     position: absolute;
     width: 352px;
     height: 46px;
@@ -121,31 +121,31 @@ background-position: 0 -70px;
     left: 227px;
 }
 
-.custom .back, .custom .start {
-    background: url(skin/start.png);
+.ds4 .back, .ds4 .start {
+    background: url(ps4-assets/start.svgz);
     width: 28px;
     height: 46px;
     opacity: 0;
 }
 
-.custom .back.pressed, .custom .start.pressed {
+.ds4 .back.pressed, .ds4 .start.pressed {
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
     opacity: 1;
 }
 
-.custom .back {
+.ds4 .back {
     float: left;
     /* width: 28px; */
 }
 
-.custom .start {
+.ds4 .start {
     float: right;
     /* width: 28px; */
     background-position: 28px 0;
 }
 
-.custom .abxy {
+.ds4 .abxy {
     position: absolute;
     width: 170px;
     height: 171px;
@@ -153,41 +153,41 @@ background-position: 0 -70px;
     left: 567px;
 }
 
-.custom .button {
+.ds4 .button {
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(skin/face.png);
+    background: url(ps4-assets/face.svgz);
 }
 
-.custom .button.pressed {
+.ds4 .button.pressed {
     background-position-y: 55px;
     /* margin-top: 5px; */
 }
 
-.custom .a {
+.ds4 .a {
     background-position: 0 0;
     bottom: 0;
     left: 58px;
 }
 
-.custom .b {
+.ds4 .b {
     background-position: -57px 0;
     top: 58px;
     right: 0px;
 }
 
-.custom .x {
+.ds4 .x {
     background-position: -113px 0;
     top: 58px;
 }
 
-.custom .y {
+.ds4 .y {
     background-position: 55px 0;
     left: 58px;
 }
 
-.custom .sticks {
+.ds4 .sticks {
     position: absolute;
     width: 361px;
     height: 105px;
@@ -195,32 +195,32 @@ background-position: 0 -70px;
     left: 228px;
 }
 
-.custom .stick {
+.ds4 .stick {
     position: absolute;
-    background: url(skin/sticks.png);
+    background: url(ps4-assets/sticks.svgz);
     height: 94px;
     width: 94px;
 }
 
-.custom .stick.pressed.left {
+.ds4 .stick.pressed.left {
     background-position-x: -96px;
 }
 
-.custom .stick.pressed.right {
+.ds4 .stick.pressed.right {
     background-position-x: -192px;
 }
 
-.custom .stick.left {
+.ds4 .stick.left {
     top: 0;
     left: 0;
 }
 
-.custom .stick.right {
+.ds4 .stick.right {
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
 
-.custom .dpad {
+.ds4 .dpad {
     position: absolute;
     width: 125px;
     height: 126px;
@@ -228,51 +228,51 @@ background-position: 0 -70px;
     left: 92px;
 }
 
-.custom .face {
-    background: url(skin/dpad.png);
+.ds4 .face {
+    background: url(ps4-assets/dpad.svgz);
     position: absolute;
 }
 
-.custom .face.up, .custom .face.down {
+.ds4 .face.up, .ds4 .face.down {
     width: 36px;
     height: 52px;
 }
 
-.custom .custom.left, .custom .face.right {
+.ds4 .face.left, .ds4 .face.right {
     width: 52px;
     height: 36px;
 }
 
-.custom .face.up {
+.ds4 .face.up {
     left: 44px;
     top: 0;
     background-position: -37px 0px;
 }
 
-.custom .face.down {
+.ds4 .face.down {
     left: 44px;
     bottom: 0;
     background-position: 0px 0;
 }
 
-.custom .face.left {
+.ds4 .face.left {
     top: 45px;
     left: 0;
     background-position: 104px 0;
 }
 
-.custom .face.right {
+.ds4 .face.right {
     top: 45px;
     right: 0px;
     background-position: 52px 0;
 }
 
-.custom .face.pressed {
+.ds4 .face.pressed {
     /* margin-top: 5px; */
     background-position-y: 52px;
 }
 
-.custom.half {
+.ds4.half {
     margin-top: -300px;
 }
 
