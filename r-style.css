@@ -77,7 +77,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/touchpad.png) no-repeat center;
+    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/touchpad1.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/face.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/face1.png);
 }
 
 .ds4 .button.pressed {
