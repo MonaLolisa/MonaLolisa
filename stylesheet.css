@@ -1,7 +1,7 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/base1.png);
-    height: 598px;
+    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/base.png);
+    height: 599px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
@@ -69,15 +69,15 @@
 }
 
 .ds4 .touchpad {
-    width: 262px;
+    width: 264px;
     height: 151px;
     position: absolute;
-    left: 272px;
+    left: 271px;
     top: 122px;
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/touchpad1.png) no-repeat center;
+    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/touchpad.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/face1.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/ps4-assets/face.png);
 }
 
 .ds4 .button.pressed {
