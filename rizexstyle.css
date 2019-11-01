@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/face.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/rizex/r-face1.png);
 }
 
 .ds4 .button.pressed {
@@ -197,7 +197,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/sticks.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/rizex/r-sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -229,7 +229,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/dpad.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/rizex/r-dpad.png);
     position: absolute;
 }
 
