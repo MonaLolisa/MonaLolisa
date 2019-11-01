@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://monalolisa.github.io/MonaLolisa/rizex/r-face1.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/rizex/r-face.png);
 }
 
 .ds4 .button.pressed {
@@ -178,12 +178,12 @@ background-position: 0 -70px;
 }
 
 .ds4 .x {
-    background-position: -111px 0;
+    background-position: -113px 0;
     top: 58px;
 }
 
 .ds4 .y {
-    background-position: 54px 0;
+    background-position: 55px 0;
     left: 58px;
 }
 
@@ -244,9 +244,9 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.up {
-    left: 44px;
-    top: -6;
-    background-position: -37px -6px;
+    left: 43px;
+    top: 2;
+    background-position: -37px 0px;
 }
 
 .ds4 .face.down {
@@ -257,8 +257,8 @@ background-position: 0 -70px;
 
 .ds4 .face.left {
     top: 45px;
-    left: 7;
-    background-position: 104px 7;
+    left: 0;
+    background-position: 104px 0;
 }
 
 .ds4 .face.right {
