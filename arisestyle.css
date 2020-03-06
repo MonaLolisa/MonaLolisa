@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/base.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/base.png);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -8,7 +8,7 @@
 }
 
 .ds4.disconnected {
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/disconnected.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/disconnected.png);
 }
 
 .ds4.disconnected div {
@@ -25,7 +25,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/triggers.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/triggers.png);
     opacity: 0;
 }
 
@@ -41,7 +41,7 @@
 .ds4 .bumper {
     width: 99px;
     height: 23px;
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/bumper.png) no-repeat;
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/touchpad.png) no-repeat center;
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/touchpad.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -89,7 +89,7 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/meta.png) no-repeat center;
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/meta.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -122,7 +122,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/start.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/start.png);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/face.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/face.png);
 }
 
 .ds4 .button.pressed {
@@ -197,7 +197,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/sticks.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -229,7 +229,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(https://monalolisa.github.io/MonaLolisa/skin/dpad.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/dpad.png);
     position: absolute;
 }
 
