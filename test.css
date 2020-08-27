@@ -97,8 +97,8 @@
 
 .ds4 .back, .ds4 .start {
     background: url(https://monalolisa.github.io/MonaLolisa/kashtm/start.png);
-    width: 28px;
-    height: 46px;
+    width: 147px;
+    height: 147px;
     opacity: 0;
 }
 
@@ -110,13 +110,13 @@
 
 .ds4 .back {
     float: left;
-    /* width: 28px; */
+    /* width: 147px; */
 }
 
 .ds4 .start {
     float: right;
-    /* width: 28px; */
-    background-position: 28px 0;
+    /* width: 147px; */
+    background-position: 147px 0;
 }
 
 .ds4 .abxy {
