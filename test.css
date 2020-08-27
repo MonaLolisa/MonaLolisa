@@ -3,6 +3,8 @@
     background: url(https://monalolisa.github.io/MonaLolisa/kashtm/base.png);
     height: 3530px;
     width: 3750px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
 }
 
 .ds4 .triggers {
@@ -192,6 +194,7 @@
 .ds4 .stick.right {
     bottom: calc(100% - 105px);
     left: calc(100% - 105px);
+    top: 0px;
 }
 
 .ds4 .dpad {
