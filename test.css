@@ -10,7 +10,7 @@
     height: 635px;
     position: absolute;
     left: 471px;
-    bottom: 2788px; 
+    bottom: 2850px; 
 }
 
 .ds4 .trigger {
@@ -166,7 +166,7 @@
     width: 1177px;
     height: 432px;
     left: 1074px;
-    top: 0px;
+    top: 1766px;
 }
 
 .ds4 .stick {
@@ -181,7 +181,7 @@
 }
 
 .ds4 .stick.pressed.right {
-    background-position-x: -453px;
+    background-position-x: -253px;
 }
 
 .ds4 .stick.left {
