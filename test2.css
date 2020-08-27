@@ -59,6 +59,7 @@
 
 .ds4 .bumper.left {
     float: left;
+    background-position: 0 0;
 }
 
 .ds4 .bumper.right {
