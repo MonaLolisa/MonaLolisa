@@ -67,9 +67,9 @@
 }
 
 .ds4 .meta {
+    position: absolute;
     width: 241px;
     height: 241px;
-    position: absolute;
     left: 1757px;
     bottom: 1877px;
 }
