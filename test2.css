@@ -3,45 +3,54 @@
     background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/base.png);
     height: 883px;
     width: 938px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
 }
 
 .ds4 .triggers {
     width: 246px;
-    height: 159px;
+    height: 161px;
     position: absolute;
-    left: 113px;
-    top: 5px;
+    left: 120px;
 }
 
 .ds4 .trigger {
-    width: 124px;
-    height: 100%;
-    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/triggers.png);
+    width: 88px;
+    height: 161px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/trigger.png);
     opacity: 0;
 }
 
 .ds4 .trigger.left {
     float: left;
+    background-position: 0 0;
 }
 
 .ds4 .trigger.right {
     float: right;
-    background-position-x: 120px;
+    background-position-x: 697px;
+}
+
+.ds4 .triggers {
+    width: 246px;
+    height: 161px;
+    position: absolute;
+    left: 120px;
 }
 
 .ds4 .bumper {
-    width: 99px;
-    height: 23px;
-    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/bumper.png) no-repeat;
+    width: 170px;
+    height: 61px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/bumper.png);
     opacity: 0;
 }
 
 .ds4 .bumpers {
     position: absolute;
-    width: 588px;
-    height: 23px;
-    left: 109px;
-    top: 94px;
+    width: 536px;
+    height: 61px;
+    left: 107px;
+    top: 129px;
 }
 
 .ds4 .bumper.pressed {
@@ -49,22 +58,12 @@
 }
 
 .ds4 .bumper.left {
-    /* -webkit-transform: rotateY(180deg); */
-    /* transform: rotateY(180deg); */
     float: left;
 }
 
 .ds4 .bumper.right {
     float: right;
-    transform: rotateY(180deg);
-}
-
-.ds4 .touchpad {
-    width: 262px;
-    height: 151px;
-    position: absolute;
-    left: 272px;
-    top: 122px;
+    background-position-x: 679px;
 }
 
 .ds4 .meta {
@@ -76,7 +75,7 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/meta.png) no-repeat center;
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/meta.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -109,7 +108,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/start.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/start.png);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -144,7 +143,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/face.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/face.png);
 }
 
 .ds4 .button.pressed {
@@ -184,7 +183,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/sticks.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -216,7 +215,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/dpad.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/arise/dpad.png);
     position: absolute;
 }
 
