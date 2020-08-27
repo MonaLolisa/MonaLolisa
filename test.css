@@ -3,8 +3,6 @@
     background: url(https://monalolisa.github.io/MonaLolisa/kashtm/base.png);
     height: 3530px;
     width: 3750px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
 }
 
 .ds4.disconnected {
@@ -88,27 +86,6 @@
     background: url(https://monalolisa.github.io/MonaLolisa/kashtm/meta.png) no-repeat center;
 }
 
-/*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
-position: absolute;
-background: url(ps4-assets/player-n.svgz);
-height: 17px;
-width: 111px;
-top: 140px;
-left: 240px;
-}
-.ds4 .p0{
-background-position: 0 -6px;
-}
-.ds4 .p1{
-background-position: 0 -28px;
-}
-.ds4 .p2{
-background-position: 0 -49px;
-}
-.ds4 .p3{
-background-position: 0 -70px;
-}*/
 .ds4 .arrows {
     position: absolute;
     width: 352px;
@@ -194,16 +171,16 @@ background-position: 0 -70px;
 .ds4 .stick {
     position: absolute;
     background: url(https://monalolisa.github.io/MonaLolisa/kashtm/sticks.png);
-    height: 94px;
-    width: 94px;
+    height: 432px;
+    width: 432px;
 }
 
 .ds4 .stick.pressed.left {
-    background-position-x: -96px;
+    background-position-x: 1074px;
 }
 
 .ds4 .stick.pressed.right {
-    background-position-x: -192px;
+    background-position-x: -2250px;
 }
 
 .ds4 .stick.left {
