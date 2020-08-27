@@ -67,50 +67,21 @@
 }
 
 .ds4 .meta {
-    width: 42px;
-    height: 42px;
+    width: 59px;
+    height: 59px;
     position: absolute;
-    left: 382px;
-    bottom: 216px;
+    left: 609px;
+    bottom: 471px;
 }
 
 .ds4 .meta.pressed {
-    background: url(https://monalolisa.github.io/MonaLolisa/arise/meta.png) no-repeat center;
-}
-
-/*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
-position: absolute;
-background: url(ps4-assets/player-n.svgz);
-height: 17px;
-width: 111px;
-top: 140px;
-left: 240px;
-}
-.ds4 .p0{
-background-position: 0 -6px;
-}
-.ds4 .p1{
-background-position: 0 -28px;
-}
-.ds4 .p2{
-background-position: 0 -49px;
-}
-.ds4 .p3{
-background-position: 0 -70px;
-}*/
-.ds4 .arrows {
-    position: absolute;
-    width: 352px;
-    height: 46px;
-    top: 142px;
-    left: 227px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/meta.png) no-repeat center;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://monalolisa.github.io/MonaLolisa/arise/start.png);
-    width: 28px;
-    height: 46px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/start.png);
+    width: 31px;
+    height: 31px;
     opacity: 0;
 }
 
@@ -122,28 +93,31 @@ background-position: 0 -70px;
 
 .ds4 .back {
     float: left;
-    /* width: 28px; */
+    position: absolute;
+    left: 283px
+    bottom: 640px
 }
 
 .ds4 .start {
     float: right;
-    /* width: 28px; */
-    background-position: 28px 0;
+    position: absolute;
+    left: 625px
+    bottom: 640px
 }
 
 .ds4 .abxy {
     position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 159px;
-    left: 567px;
+    width: 196px;
+    height: 196px;
+    top: 257px;
+    left: 659px;
 }
 
 .ds4 .button {
     position: absolute;
-    width: 55px;
-    height: 55px;
-    background: url(https://monalolisa.github.io/MonaLolisa/arise/face.png);
+    width: 62px;
+    height: 62px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/face.png);
 }
 
 .ds4 .button.pressed {
@@ -154,7 +128,7 @@ background-position: 0 -70px;
 .ds4 .a {
     background-position: 0 0;
     bottom: 0;
-    left: 58px;
+    left: 67px;
 }
 
 .ds4 .b {
