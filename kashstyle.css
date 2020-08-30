@@ -1,56 +1,57 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/base.png);
-    height: 598px;
-    width: 806px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
-}
-
-.ds4.disconnected {
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/disconnected.png);
-}
-
-.ds4.disconnected div {
-    display: none;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/base.png);
+    height: 883px;
+    width: 938px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
 }
 
 .ds4 .triggers {
-    width: 588px;
-    height: 90px;
+    width: 246px;
+    height: 161px;
     position: absolute;
-    left: 109px;
+    left: 120px;
+    top: 1px;
 }
 
 .ds4 .trigger {
-    width: 99px;
-    height: 100%;
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/triggers.png);
+    width: 121px;
+    height: 161px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/triggers.png);
     opacity: 0;
 }
 
 .ds4 .trigger.left {
     float: left;
+    background-position: 0 0;
 }
 
 .ds4 .trigger.right {
     float: right;
-    background-position-x: 99px;
+    background-position-x: 121px;
+}
+
+.ds4 .triggers {
+    width: 699px;
+    height: 161px;
+    position: absolute;
+    left: 120px;
 }
 
 .ds4 .bumper {
-    width: 99px;
-    height: 23px;
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/bumper.png) no-repeat;
+    width: 170px;
+    height: 61px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/bumpers.png);
     opacity: 0;
 }
 
 .ds4 .bumpers {
     position: absolute;
-    width: 588px;
-    height: 23px;
-    left: 109px;
-    top: 94px;
+    width: 699px;
+    height: 61px;
+    left: 121px;
+    top: 178px;
 }
 
 .ds4 .bumper.pressed {
@@ -58,73 +59,31 @@
 }
 
 .ds4 .bumper.left {
-    /* -webkit-transform: rotateY(180deg); */
-    /* transform: rotateY(180deg); */
     float: left;
+    background-position: 0 0;
 }
 
 .ds4 .bumper.right {
     float: right;
-    transform: rotateY(180deg);
-}
-
-.ds4 .touchpad {
-    width: 262px;
-    height: 151px;
-    position: absolute;
-    left: 272px;
-    top: 122px;
-}
-
-.ds4 .touchpad.pressed {
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/touchpad.png) no-repeat center;
+    background-position-x: px;
 }
 
 .ds4 .meta {
-    width: 42px;
-    height: 42px;
+    width: 59px;
+    height: 59px;
     position: absolute;
-    left: 382px;
-    bottom: 216px;
+    left: 441px;
+    bottom: 470px;
 }
 
 .ds4 .meta.pressed {
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/meta.png) no-repeat center;
-}
-
-/*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
-position: absolute;
-background: url(ps4-assets/player-n.svgz);
-height: 17px;
-width: 111px;
-top: 140px;
-left: 240px;
-}
-.ds4 .p0{
-background-position: 0 -6px;
-}
-.ds4 .p1{
-background-position: 0 -28px;
-}
-.ds4 .p2{
-background-position: 0 -49px;
-}
-.ds4 .p3{
-background-position: 0 -70px;
-}*/
-.ds4 .arrows {
-    position: absolute;
-    width: 352px;
-    height: 46px;
-    top: 142px;
-    left: 227px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/meta.png) no-repeat center;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/start.png);
-    width: 28px;
-    height: 46px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/start.png);
+    width: 31px;
+    height: 31px;
     opacity: 0;
 }
 
@@ -136,78 +95,82 @@ background-position: 0 -70px;
 
 .ds4 .back {
     float: left;
-    /* width: 28px; */
+    position: absolute;
+    left: 55px;
+    top: 71px;
 }
 
 .ds4 .start {
     float: right;
-    /* width: 28px; */
-    background-position: 28px 0;
+    position: absolute;
+    left: 398px;
+    top: 71px;
 }
 
 .ds4 .abxy {
     position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 159px;
-    left: 567px;
+    width: 196px;
+    height: 196px;
+    top: 257px;
+    left: 659px;
 }
 
 .ds4 .button {
     position: absolute;
-    width: 55px;
-    height: 55px;
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/face.png);
+    width: 62px;
+    height: 62px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/face.png);
 }
 
 .ds4 .button.pressed {
-    background-position-y: 55px;
+    background-position-y: 62px;
     /* margin-top: 5px; */
 }
 
 .ds4 .a {
     background-position: 0 0;
-    bottom: 0;
-    left: 58px;
+    bottom: 0px;
+    left: 66px;
 }
 
 .ds4 .b {
-    background-position: -57px 0;
-    top: 58px;
-    right: 0px;
+    background-position: -70px 0;
+    top: 67px;
+    right: 3px;
 }
 
 .ds4 .x {
-    background-position: -113px 0;
-    top: 58px;
+    background-position: -141px 0;
+    top: 66px;
 }
 
 .ds4 .y {
-    background-position: 55px 0;
-    left: 58px;
+    background-position: 62px 0;
+    left: 65px;
+    top: -1px;
 }
 
 .ds4 .sticks {
     position: absolute;
-    width: 361px;
+    width: 400px;
     height: 105px;
-    top: 308px;
-    left: 228px;
+    top: 442px;
+    left: 268px;
 }
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/sticks.png);
-    height: 94px;
-    width: 94px;
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/sticks.png);
+    height: 108px;
+    width: 108px;
 }
 
 .ds4 .stick.pressed.left {
-    background-position-x: -96px;
+    background-position-x: -114px;
 }
 
 .ds4 .stick.pressed.right {
-    background-position-x: -192px;
+    background-position-x: -114px;
 }
 
 .ds4 .stick.left {
@@ -222,49 +185,49 @@ background-position: 0 -70px;
 
 .ds4 .dpad {
     position: absolute;
-    width: 125px;
-    height: 126px;
-    top: 181px;
+    width: 237px;
+    height: 117px;
+    top: 300px;
     left: 92px;
 }
 
 .ds4 .face {
-    background: url(https://monalolisa.github.io/MonaLolisa/kash/dpad.png);
+    background: url(https://monalolisa.github.io/MonaLolisa/kashtm2/dpad.png);
     position: absolute;
 }
 
 .ds4 .face.up, .ds4 .face.down {
-    width: 36px;
-    height: 52px;
+    width: 45px;
+    height: 61px;
 }
 
 .ds4 .face.left, .ds4 .face.right {
-    width: 52px;
-    height: 36px;
+    width: 68px;
+    height: 43px;
 }
 
 .ds4 .face.up {
-    left: 44px;
-    top: 0;
-    background-position: -37px 0px;
+    left: 65px;
+    top: -19px;
+    background-position: -53px 0px;
 }
 
 .ds4 .face.down {
-    left: 44px;
-    bottom: 0;
-    background-position: 0px 0;
+    left: 63px;
+    bottom: -18px;
+    background-position: -4px 0;
 }
 
 .ds4 .face.left {
-    top: 45px;
-    left: 0;
-    background-position: 104px 0;
+    top: 32px;
+    left: 7px;
+    background-position: 135px 0;
 }
 
 .ds4 .face.right {
-    top: 45px;
-    right: 0px;
-    background-position: 52px 0;
+    top: 32px;
+    right: 73px;
+    background-position: 71px 0;
 }
 
 .ds4 .face.pressed {
