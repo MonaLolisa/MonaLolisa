@@ -166,7 +166,7 @@ background-position: 0px 0px;
     width: 277px;
     height: 91px;
     top: 308px;
-    left: 228px;
+    left: 258px;
 }
 
 .ds4 .stick {
@@ -177,13 +177,13 @@ background-position: 0px 0px;
 }
 
 .ds4 .stick.pressed.left {
-    background-position: -94px 0px;
+    background-position: -93px 0px;
     height: 91px;
     width: 91px;
 }
 
 .ds4 .stick.pressed.right {
-    background-position: -187px 0px;
+    background-position: -185px 0px;
     height: 91px;
     width: 91px;
 }
