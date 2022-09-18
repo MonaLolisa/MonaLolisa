@@ -172,8 +172,8 @@ background-position: 0px 0px;
 .ds4 .stick {
     position: absolute;
     background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/sticks.png);
-    height: 92px;
-    width: 92px;
+    height: 91px;
+    width: 91px;
 }
 
 .ds4 .stick.pressed.left {
