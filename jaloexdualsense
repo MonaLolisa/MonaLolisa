@@ -1,0 +1,240 @@
+.controller.ds4 {
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/base%202.png);
+    height: 587px;
+    width: 742px;
+}
+
+.ds4 .start.pressed {
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/start.png);
+    position: relative;
+	background-position: 0px -0.5px;
+    width: 22.9px;
+    height: 37px;
+    left: -23px;
+    top: -4px;
+}
+
+.ds4 .back.pressed {
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/start.png);
+    transform: rotateY(180deg);
+    position: relative;
+    width: 23px;
+    height: 37px;
+    left: -40.5px;
+    top: -4px;
+}
+
+.ds4 .bumper {
+    width: 99px;
+    height: 33px;
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/bumper.png) no-repeat;
+    opacity: 0;
+}
+
+.ds4 .bumpers {
+    position: absolute;
+    background-position: 0px 0px;
+    width: 561px;
+    height: 24px;
+    left: 91px;
+    top: 97px;
+}
+
+.ds4 .bumper.left {
+    float: left;
+}
+
+.ds4 .bumper.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.ds4 .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 181px;
+    left: 92px;
+}
+
+.ds4 .face {
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/dpad.png);
+    position: absolute;
+}
+
+.ds4 .face.up {
+    width: 49px;
+    height: 56px;
+    left: 23px;
+    top: -6px;
+    background-position: -46px 0px;
+}
+
+.ds4 .face.down {
+    width: 46px;
+    height: 57px;
+    left: 26px;
+    bottom: 5px;
+    background-position: 0px 0;
+}
+
+.ds4 .face.left {
+    width: 56px;
+    height: 47px;
+    top: 34px;
+    left: -15px;
+    background-position: 115px 0;
+}
+
+.ds4 .face.right {
+    width: 56px;
+    height: 47px;
+    top: 34px;
+    right: 13px;
+    background-position: 56px 0;
+}
+
+.ds4 .face.pressed {
+    background-position-y: 56px;
+}
+
+.ds4 .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 159px;
+    left: 527px;
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/face.png);
+}
+
+.ds4 .button.pressed {
+    background-position-y: 48px;
+}
+
+.ds4 .a {
+background-position: 0px 0px;
+    width: 49px;
+    height: 49px;
+    bottom: 13.5px;
+    left: 53.75px;
+}
+
+.ds4 .b {
+    background-position: -52px 0px;
+    width: 50px;
+    height: 49px;
+    top: 54px;
+    right: 13px;
+}
+
+.ds4 .x {
+    background-position: -105px 0px;
+    width: 49px;
+    height: 49px;
+    top: 54px;
+    left: -1px;
+}
+
+.ds4 .y {
+    background-position: 49px 0px;
+    width: 49px;
+    height: 49px;
+    top: 0px;
+    left: 53px;
+}
+
+.ds4 .meta {
+    width: 51px;
+    height: 40px;
+    position: absolute;
+    left: 345px;
+    bottom: 233px;
+}
+
+.ds4 .meta.pressed {
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/meta.png) no-repeat center;
+}
+
+.ds4 .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 228px;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/sticks.png);
+    height: 92px;
+    width: 92px;
+}
+
+.ds4 .stick.pressed.left {
+    background-position: -94px 0px;
+    height: 92px;
+    width: 92px;
+}
+
+.ds4 .stick.pressed.right {
+    background-position: -187px 0px;
+    height: 92px;
+    width: 92px;
+}
+
+.ds4 .stick.left {
+    top: -14px;
+    left: -21px;
+}
+
+.ds4 .stick.right {
+    top: calc(100% - 119px);
+    left: calc(100% - 145px);
+}
+
+.ds4 .triggers {
+    width: 588px;
+    height: 90px;
+    position: absolute;
+    left: 109px;
+}
+
+.ds4 .trigger {
+    width: 99px;
+    height: 100%;
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/triggers.png);
+    opacity: 0;
+}
+
+.ds4 .trigger.left {
+    float: left;
+    position: relative;
+    top: 0px;
+    left: -18px;
+}
+
+.ds4 .trigger.right {
+    float: right;
+    background-position: 99px 0px;
+    position: relative;
+    top: 0px;
+    left: -45px;
+}
+
+.ds4 .touchpad {
+    width: 297px;
+    height: 162px;
+    position: absolute;
+    left: 223px;
+    top: 103px;
+}
+
+.ds4 .touchpad.pressed {
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/touchpad) no-repeat center;
+}
