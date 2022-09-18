@@ -226,15 +226,3 @@ background-position: 0px 0px;
     top: 0px;
     left: -45px;
 }
-
-.ds4 .touchpad {
-    width: 297px;
-    height: 162px;
-    position: absolute;
-    left: 223px;
-    top: 103px;
-}
-
-.ds4 .touchpad.pressed {
-    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/touchpad.png) no-repeat center;
-}
