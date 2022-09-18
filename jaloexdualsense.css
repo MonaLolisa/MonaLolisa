@@ -194,8 +194,8 @@ background-position: 0px 0px;
 }
 
 .ds4 .stick.right {
-    top: calc(100% - 119px);
-    left: calc(100% - 145px);
+    bottom: 202px;
+    left: 444px;
 }
 
 .ds4 .triggers {
@@ -225,4 +225,16 @@ background-position: 0px 0px;
     position: relative;
     top: 0px;
     left: -45px;
+}
+
+.ds4 .touchpad {
+    width: 297px;
+    height: 162px;
+    position: absolute;
+    left: 223px;
+    top: 103px;
+}
+
+.ds4 .touchpad.pressed {
+    background: url(https://monalolisa.github.io/MonaLolisa/JaLo%20Dualsense/touchpad.png) no-repeat center;
 }
