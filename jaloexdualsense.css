@@ -252,16 +252,6 @@ background-position: 0px 0px;
     width: 91px;
 }
 
-.ds4 .stick.left {
-    top: 295px;
-    left: 0px;
-}
-
-.ds4 .stick.right {
-    top: calc(100% - -204px);
-    left: calc(100% - 40px);
-}
-
 .ds4 .dpad {
     position: absolute;
     width: 125px;
