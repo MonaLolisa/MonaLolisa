@@ -228,9 +228,10 @@ background-position: 0px 0px;
 
 .ds4 .sticks {
     position: absolute;
-    width: 277px;
-    height: 91px;
-    left: 206px;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 221px;
 }
 
 .ds4 .stick {
@@ -250,6 +251,16 @@ background-position: 0px 0px;
     background-position: -185px 0px;
     height: 91px;
     width: 91px;
+}
+
+.ds4 .stick.left {
+    top: -13px;
+    left: -14px;
+}
+
+.ds4 .stick.right {
+    top: calc(100% - 118px);
+    left: calc(100% - 139px);
 }
 
 .ds4 .dpad {
