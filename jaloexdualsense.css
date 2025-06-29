@@ -254,13 +254,13 @@ background-position: 0px 0px;
 
 .ds4 .stick.left {
     position: absolute;
-    top: 295px;
+    top: -13px;
     left: 1px;
 }
 
 .ds4 .stick.right {
     position: absolute;
-    top: 295px;
+    top: -13px;
     left: 237px;
 }
 
